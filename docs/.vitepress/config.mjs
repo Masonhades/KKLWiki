@@ -69,18 +69,24 @@ export default defineConfig({
       },
       {
         text: 'Механики сервера',
+        link: '/server-mechanics',
         items: [
-          { text: 'Обзор механик', link: '/server-mechanics' },
-          { text: 'Команды и Союзы', link: '/teams' },
-          { text: 'Туман', link: '/fog' },
-          { text: 'Ориджины', link: '/origins' },
-          { text: 'Крафты', link: '/crafts' },
           {
-            text: 'Точки интереса',
-            link: '/points-of-interest',
+            text: '5 сезон',
+            collapsed: false,
             items: [
-              { text: 'Восстановление точки', link: '/poi-restoration' },
-              { text: 'Квесты Дома Картографа', link: '/cartographer-quests' },
+              { text: 'Команды и Союзы', link: '/teams' },
+              { text: 'Туман', link: '/fog' },
+              { text: 'Ориджины', link: '/origins' },
+              { text: 'Крафты', link: '/crafts' },
+              {
+                text: 'Точки интереса',
+                link: '/points-of-interest',
+                items: [
+                  { text: 'Восстановление точки', link: '/poi-restoration' },
+                  { text: 'Квесты Дома Картографа', link: '/cartographer-quests' },
+                ],
+              },
             ],
           },
         ],
