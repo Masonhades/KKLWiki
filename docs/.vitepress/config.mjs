@@ -67,13 +67,14 @@ export default defineConfig({
           { text: 'Прогрессия и особенности', link: '/progression' },
         ],
       },
+
       {
-        text: 'Механики сервера',
-        link: '/server-mechanics',
+        text: 'Механики',
         items: [
           {
-            text: '5 сезон',
-            collapsed: false,
+            text: 'Механики 5 сезон',
+            link: '/server-mechanics-5',
+            collapsed: true,
             items: [
               { text: 'Команды и Союзы', link: '/teams' },
               { text: 'Туман', link: '/fog' },
@@ -87,6 +88,17 @@ export default defineConfig({
                   { text: 'Квесты Дома Картографа', link: '/cartographer-quests' },
                 ],
               },
+            ],
+          },
+
+          {
+            text: 'Механики Sky Is Over',
+            link: '/server-mechanics-sky-is-over',
+            collapsed: false,
+            items: [
+              { text: 'Острова', link: '/sky-is-over-islands' },
+              { text: 'Аэронавтика', link: '/sky-is-over-aeronautics' },
+              { text: 'Ресурсы', link: '/sky-is-over-resources' },
             ],
           },
         ],
