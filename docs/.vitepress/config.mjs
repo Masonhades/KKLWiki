@@ -64,7 +64,7 @@ export default defineConfig({
           { text: 'Описание проекта', link: '/project-description' },
           { text: 'Правила сервера', link: '/rules' },
           { text: 'Как начать играть', link: '/getting-started' },
-          { text: 'Прогрессия и особенности', link: '/progression' },
+          
         ],
       },
 
@@ -76,6 +76,7 @@ export default defineConfig({
             link: '/server-mechanics-5',
             collapsed: true,
             items: [
+              { text: 'Прогрессия и особенности', link: '/progression' },
               { text: 'Команды и Союзы', link: '/teams' },
               { text: 'Туман', link: '/fog' },
               { text: 'Ориджины', link: '/origins' },
